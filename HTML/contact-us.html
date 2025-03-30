@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/CSS/contact us.css" />
+    <link rel="stylesheet" href="/CSS/media queary.css">
+    <script src="/JAVASCRIPT/contact us.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+        <a id="nav" href="/index.html">Home</a>
+        <a id="nav" href="/HTML/about-me.html">About me</a>
+        <a id="nav" href="/HTML/portfolio.html">Portfolio</a>
+        <a id="nav" href="/HTML/contact-us.html">Contact us</a>
+      </nav>
+    <form id="contactform">
+      <label for="name">Full Name:</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Please enter your name"
+        required
+      />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Please enter your email"
+        required
+      />
+      <br /><br />
+      <label for="number">Contact No:</label>
+      <input type="tel" id="number" placeholder="(+365) 1234 5678" pattern="^\\(+365)\\s\d{4}\s\d{4}$" required />
+      <br /><br />
+      <label for="message">Message:</label> <br />
+      <textarea
+        id="message"
+        placeholder="Please enter at least 10 characters"
+        required
+        rows="10"
+        cols="50"
+        minlength="10"
+      ></textarea>
+      <br /><br />
+      <button type="submit" onclick="send()">Send</button>
+    </form>
+  </body>
+</html>
