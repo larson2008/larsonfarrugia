@@ -1,0 +1,58 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+*{
+    margin: 0% auto;
+    padding: 0% auto;
+}
+h2:hover{
+    background-color: black;
+    padding: 10px;
+}
+section{
+    display: flex;
+}
+nav{
+    background-color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+a#nav:hover{
+    background-color: black;
+    padding: 10px;
+}
+aside{
+    background-color: rgb(10, 10, 10);
+    padding: 30px;
+    font-family: sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+article{
+    background-color: rgb(103, 100, 100);
+    color: white;
+    width: 30%;
+    line-height: 5;
+    padding: 10px;
+    font-family: sans-serif;
+}
+p{
+    display: none;
+    color: white;
+    font-family: sans-serif;
+}
