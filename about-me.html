@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="/CSS/about me.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/CSS/media queary.css" />
+    <script src="/JAVASCRIPT/About me.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>About me</h1>
+    </header>
+    <nav>
+      <a id="nav" href="index.html">Home</a>
+      <a id="nav" href="about-me.html">About me</a>
+      <a id="nav" href="portfolio.html">Portfolio</a>
+      <a id="nav" href="contact-us.html">Contact us</a>
+    </nav>
+    <section>
+      <article>
+        <h3>My Skills</h3>
+        <ul>
+          <li>HTML5, CSS , and JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Web Development Frameworks</li>
+          <li>Version Control (Git, GitHub)</li>
+          <li>SEO Optimization and Performance Tuning</li>
+        </ul>
+      </article>
+      <aside>
+        <a
+          data-fancybox="gallery"
+          data-src="https://lipsum.app/id/2/1600x1200"
+          data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+        >
+          <img
+            src="/Images/images/download (1).jpg"
+            width="200"
+            height="150"
+            alt="gaming"
+          />
+        </a>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+          <img
+            src="/Images/images/download (2).jpg"
+            width="200"
+            height="150"
+            alt="photography"
+          />
+        </a>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+          <img
+            src="/Images/images/download (3).jpg"
+            width="200"
+            height="150"
+            alt="nature"
+          />
+        </a>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+          <img
+            src="/Images/images/download.jpg"
+            width="200"
+            height="150"
+            alt="football"
+          />
+        </a>
+        <br />
+        <button onclick="fact()">Surprise me!</button>
+        <p id="funfact">
+          I can spend hours perfecting the smallest details in a website, but I
+          still struggle to decide what to watch on Netflix!
+        </p>
+      </aside>
+    </section>
+    <footer>© 2025 Larson. All rights reserved.</footer>
+  </body>
+</html>
